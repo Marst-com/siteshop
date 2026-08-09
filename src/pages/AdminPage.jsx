@@ -4,7 +4,7 @@ import { db } from '../lib/firebase';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
-const SUPER_ADMIN_UID = 'SUPER_ADMIN_UID_HERE'; // 여기에 네 Firebase UID 넣어
+const SUPER_ADMIN_UID = 'Marst'; // 여기에 네 Firebase UID 넣어
 
 export default function AdminPage() {
   const { user, userRole } = useAuth();
